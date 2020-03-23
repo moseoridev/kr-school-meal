@@ -1,4 +1,4 @@
-# Korea School Meal
+# [Korea School Meal]
 
 대한민국 학교들의 급식 정보를 알려줍니다. 모든 정보는 [NEIS](https://www.neis.go.kr/)에서 얻어옵니다.
 
@@ -27,6 +27,11 @@
 
 문제가 있다면 issue를 남겨주세요.
 
+# Links
+
+[GitHub](https://github.com/moseoridev/kr-school-meal)<br>
+[PyPI](https://pypi.org/project/kr-school-meal/)
+
 ---
 
-made by moseoridev with <3
+made by [moseoridev](https://github.com/moseoridev/) with <3
