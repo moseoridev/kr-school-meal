@@ -5,7 +5,7 @@ with open("README.md", "r", encoding='UTF8') as fh:
 
 setuptools.setup(
     name="kr_school_meal",
-    version="0.0.1",
+    version="0.0.2",
     author="moseoridev",
     author_email="sjssjs1344@gmail.com",
     description="Korea School Meal",
@@ -13,6 +13,10 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/moseoridev/korea-school-meal",
     packages=setuptools.find_packages(),
+    install_requires=[
+        'requests',
+        'beautifulsoup4',
+    ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)",
