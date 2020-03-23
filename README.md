@@ -1,4 +1,4 @@
-# [Korea School Meal]
+# Korea School Meal
 
 대한민국 학교들의 급식 정보를 알려줍니다. 모든 정보는 [NEIS](https://www.neis.go.kr/)에서 얻어옵니다.
 
