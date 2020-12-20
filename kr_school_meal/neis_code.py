@@ -21,7 +21,7 @@ def get_code(school_name):
     }
 
     response = requests.post('https://www.schoolinfo.go.kr/ei/ss/Pneiss_a01_l0.do',
-                             headers=headers, data=data).json()
+                             headers=headers, data=data, verify=False).json()
 
     for i in response:
         sch = response[i]
